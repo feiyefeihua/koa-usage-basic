@@ -1,0 +1,31 @@
+{
+  "name": "koa-usage-basic",
+  "version": "1.0.0",
+  "description": "study notes",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "base": "nodemon hello-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feiyefeihua/koa-usage-basic.git"
+  },
+  "keywords": [
+    "koa",
+    "middleware"
+  ],
+  "author": "feiyefeihua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feiyefeihua/koa-usage-basic/issues"
+  },
+  "homepage": "https://github.com/feiyefeihua/koa-usage-basic#readme",
+  "dependencies": {
+    "koa": "^2.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
